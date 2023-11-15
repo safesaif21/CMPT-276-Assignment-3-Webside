@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body{
+
+    font-family: 'Noto Sans';
+    background-image: url("../images/White-gray-background.jpg");
+}
+.wrapper{
+
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(133, 133, 133, 0.803);
+    padding: 1rem;
+}
+header{
+
+    font-size: 18px;
+}
+h1{
+
+    font-family: 'Sofia Sans';
+    font-size: 69px;
+}
+h2{
+
+    font-family: 'Sofia Sans';
+    font-size: 30px;
+}
+h3{
+
+    font-family: 'Sofia Sans';
+    font-size: 20px;
+}
+p{
+
+    font-size: 17px;
+}
+ul{
+
+    font-size: 12px;
+}
+img{
+
+    max-width: 600px;
+    margin: auto;
+    padding-left: 140px;
+    
+}
+audio{
+
+    margin: auto;
+}
+#attributionTitle{
+
+    font-size: 15px;
+}
+.large-button{
+
+    width: 350px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(105,105,105);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: lightgray;
+    font-family: 'Noto Sans';
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.large-button:hover{
+
+    box-shadow: 0 0 15px rgba(255, 134, 255, 0.5);
+    color: rgb(255, 158, 255);
+    transform:translate(0px, 3px);
+}
+.home-button{
+
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(105,105,105);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: lightgray;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+}
+.home-button:hover{
+
+    box-shadow: 0 0 15px rgba(255, 134, 255, 0.5);
+    color: rgb(255, 158, 255);
+    transform:translate(0px, 1px);
+}
+.regular-button{
+
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(105,105,105);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: lightgray;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+}
+.food-button{
+
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(105,105,105);
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: lightgray;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+}
+.food-button:hover{
+
+    box-shadow: 0 0 15px rgba(127, 255, 212, 0.5);
+    color:aquamarine;
+    transform:translate(0px, 1px);
+}
+#ageAnswer{
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#ageButton:hover{
+
+    box-shadow: 0 0 15px rgba(173, 225, 47, 0.5);
+    color: greenyellow;
+    transform:translate(0px, 10px);
+}
+#ageButton:hover + #ageAnswer{
+
+    opacity: 1;
+}
+#genderAnswer{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#genderButton:hover{
+
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    color: aqua;
+    transform:translate(0px, 10px);
+}
+#genderButton:hover + #genderAnswer{
+
+    opacity: 1;
+}
+#breedAnswer{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#breedButton:hover{
+
+    box-shadow: 0 0 15px rgba(255, 218, 185, 0.5);
+    color: peachpuff;
+    transform:translate(0px, 10px);
+}
+#breedButton:hover + #breedAnswer{
+
+    opacity: 1;
+}
