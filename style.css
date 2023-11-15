@@ -22,16 +22,6 @@ h1{
     font-family: 'Sofia Sans';
     font-size: 69px;
 }
-h2{
-
-    font-family: 'Sofia Sans';
-    font-size: 30px;
-}
-h3{
-
-    font-family: 'Sofia Sans';
-    font-size: 20px;
-}
 p{
 
     font-size: 17px;
@@ -44,8 +34,7 @@ img{
 
     max-width: 600px;
     margin: auto;
-    padding-left: 140px;
-    
+    padding-left: 140px;  
 }
 audio{
 
@@ -69,7 +58,6 @@ audio{
     font-family: 'Noto Sans';
     font-size: 30px;
     cursor: pointer;
-
 }
 .large-button:hover{
 
